@@ -44,7 +44,7 @@
     --button-col: rgb(202, 202, 202);
     --button-col-not-active: rgb(202, 202, 202);
     --button-col-active: rgb(202, 202, 202);
-    --col-a: #2c9b65;
+    --col-a: green;
 }
 
 *{
@@ -121,14 +121,51 @@ ul {
   opacity: 0.7;
 }
 
-@media only screen and (max-width:800px){
+@media only screen and (max-width:1200px){
     #icon {
-        width: 40px;
+        width: 50px;
         cursor: pointer;
         float: right;
-        margin-top: 2px;
+        margin-top: 1px;
         margin-right: 10px;
     }
+}
+
+
+@media only screen and (max-width:1000px){
+  #icon {
+      width: 40px;
+      cursor: pointer;
+      float: right;
+      margin-top: 5px;
+      margin-right: 10px;
+  }
+
+  p {
+    font-size: small;
+    margin-left: -27px;
+    margin-right: -27px;
+  }
+}
+
+
+@media only screen and (max-width:600px){
+  header {
+    font-size: larger;
+  }
+
+  ul li a {
+    padding: 4px 6px;
+    font-size: x-small;
+  }
+
+  #icon {
+    width: 20px;
+    cursor: pointer;
+    float: right;
+    margin-top: -1px;
+    margin-right: 4px;
+}
 }
 
 
