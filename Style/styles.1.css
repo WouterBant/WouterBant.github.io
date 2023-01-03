@@ -117,6 +117,11 @@ ul {
   padding-right: 1%;
 }
 
+#climate_pic {
+  max-width: 330px;
+  width: 55vw;
+}
+
 #icon:hover {
   opacity: 0.7;
 }
