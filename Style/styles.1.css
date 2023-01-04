@@ -72,7 +72,6 @@ body{
     font-size: var(--normal-font-size);
     background-color: var(--background-col);
     color: var(--text-color);
-    /* height: 95%; */
     padding-bottom: 5%;
 }
 
@@ -80,7 +79,6 @@ footer {
   bottom: 0;
   width: 100%;
   text-align: center;
-  padding-left: 20px;
   color: hsl(var(--hue-color), 8%, 45%);
 }
 
