@@ -149,6 +149,10 @@ ul {
     margin-left: -27px;
     margin-right: -27px;
   }
+
+  footer {
+    font-size: small;
+  }
 }
 
 
